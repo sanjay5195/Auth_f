@@ -1,3 +1,5 @@
+import 'package:auth_f/Google.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class login extends StatefulWidget {
@@ -32,11 +34,23 @@ class _loginState extends State<login> {
             },
             obscureText: true,
           ),
+          FlatButton(onPressed: () {
+            FirebaseAuth.instance.signInWithEmailAndPassword(email: email, password: password)
+                .then((firebaseuser) {
+
+                  Navigator.pushNamed(context, "/homepage");
+            }).catchError((e) {
+              print(e);
+            });
+          }, child: Text("Log in")),
+          SizedBox(height: 10),
           FlatButton(onPressed: () {}, child: Text("Sign in")),
           SizedBox(height: 10),
           FlatButton(onPressed: () {
             Navigator.pushNamed(context, "/signup");
-          }, child: Text("Sign UP"))
+          }, child: Text("Sign UP")),
+          SizedBox(height: 10),
+          Google()
         ],
       ),
     );

@@ -110,6 +110,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_auth_buttons",
+      "rootUri": "file:///home/sanjay.c/Desktop/dbox/apps_down/flutter_linux_2.0.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_auth_buttons-0.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///home/sanjay.c/Desktop/dbox/apps_down/flutter_linux_2.0.2-stable/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -118,6 +124,24 @@
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///home/sanjay.c/Desktop/dbox/apps_down/flutter_linux_2.0.2-stable/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in",
+      "rootUri": "file:///home/sanjay.c/Desktop/dbox/apps_down/flutter_linux_2.0.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///home/sanjay.c/Desktop/dbox/apps_down/flutter_linux_2.0.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///home/sanjay.c/Desktop/dbox/apps_down/flutter_linux_2.0.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -160,6 +184,12 @@
     {
       "name": "plugin_platform_interface",
       "rootUri": "file:///home/sanjay.c/Desktop/dbox/apps_down/flutter_linux_2.0.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///home/sanjay.c/Desktop/dbox/apps_down/flutter_linux_2.0.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -224,7 +254,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-06-16T14:26:21.127283Z",
+  "generated": "2021-06-16T17:19:20.766071Z",
   "generator": "pub",
   "generatorVersion": "2.12.1"
 }

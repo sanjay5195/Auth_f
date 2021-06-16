@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "230418351226",
+    "project_id": "auth-f-ca185",
+    "storage_bucket": "auth-f-ca185.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230418351226:android:d2a266225e9edc998267c3",
+        "android_client_info": {
+          "package_name": "com.sandev.auth_f"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230418351226-bkk71bii6gcou70l0s74bvhkfigtbs4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandev.auth_f",
+            "certificate_hash": "07c45d56e3ea3dcf8b8367bf3f9745fefb1c4470"
+          }
+        },
+        {
+          "client_id": "230418351226-ek7tokadkc1oht7ki0ju6a46sbmt3h01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHPTdV1BaB1ucZuCHm1P5TR7UkNPcy6ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230418351226-ek7tokadkc1oht7ki0ju6a46sbmt3h01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

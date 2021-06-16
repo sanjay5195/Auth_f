@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/sandev/auth_f/BuildConfig.java
+ com.sandev.auth_f.BuildConfig

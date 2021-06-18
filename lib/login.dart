@@ -50,6 +50,10 @@ class _loginState extends State<login> {
             Navigator.pushNamed(context, "/signup");
           }, child: Text("Sign UP")),
           SizedBox(height: 10),
+          FlatButton(onPressed: () {
+            Navigator.pushNamed(context, "/phone");
+          }, child: Text("Phone Login")),
+          SizedBox(height: 10),
           Google()
         ],
       ),

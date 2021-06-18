@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:auth_f/login.dart';
 import 'signup.dart';
 import 'homepage.dart';
+import 'phone.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/signup": (_) => signup(),
         "/homepage": (_) => homePage(),
+        "/phone": (_) => phone(),
       },
     );
   }
